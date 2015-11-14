@@ -4,7 +4,7 @@ Examples for the SC15 Tutorial on HPX
 - In order to work on the Examples, you first need to load the HPX Tutorial environment:
 
   ```
-  $ . /project/projectdirs/training/SC15/HPX-SC15/env.sh
+  $ . /project/projectdirs/training/SC15/HPX-SC15/hpx_install/env.sh
   ```
 - This will allow you to load the HPX module files
   
