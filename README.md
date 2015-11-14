@@ -1,6 +1,13 @@
 # SC15_Examples
 Examples for the SC15 Tutorial on HPX
 
+- Run bash:
+
+  ```
+  $ bash
+  $ source /usr/share/Modules/init/bash
+  ```
+
 - In order to work on the Examples, you first need to load the HPX Tutorial environment:
 
   ```
