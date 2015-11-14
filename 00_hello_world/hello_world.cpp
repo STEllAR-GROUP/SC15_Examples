@@ -5,6 +5,9 @@
 //  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 ///////////////////////////////////////////////////////////////////////////////
 
+#pragma warning(disable:488)
+#pragma warning(disable:858)
+
 #include <hpx/hpx_main.hpp>
 
 #include <hpx/hpx.hpp>
