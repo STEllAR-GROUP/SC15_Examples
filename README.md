@@ -38,10 +38,15 @@ Examples for the SC15 Tutorial on HPX
   $ make -j8
   ```
 - Run the example:
-  - Babbage:
+  - Babbage (host):
   
   ```
-  $ srun -n2 -N2 --pty mpirun ./hello_world
+  $ srun -n2 -N2 --pty mpirun.host ./hello_world
+  ```
+  - Babbage (mic):
+  
+  ```
+  $ srun -n2 -N2 --pty mpirun.mic ./hello_world
   ```
   - Edison:
   
