@@ -46,7 +46,7 @@ Examples for the SC15 Tutorial on HPX
   - Babbage (mic):
   
   ```
-  $ srun -n2 -N2 --pty mpirun.mic ./hello_world
+  $ srun -n2 -N2 --pty mpirun.mic.slrum -z 1 -m ./hello_world
   ```
   - Edison:
   
