@@ -1,7 +1,7 @@
 # SC15_Examples
 Examples for the SC15 Tutorial on HPX
 
-- Run bash:
+- If you're on Babbeg, run bash:
 
   ```
   $ bash
