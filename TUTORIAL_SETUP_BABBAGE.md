@@ -28,7 +28,7 @@ Examples for the SC15 Tutorial on HPX
 
   ```
   . /project/projectdirs/training/SC15/HPX-SC15/hpx_install/env.sh
-  module load hpx/host-0.9.11-release
+  module load hpx/mic-0.9.11-release
   ```
 
 - Build an example (for example hello_world):
@@ -42,7 +42,7 @@ Examples for the SC15 Tutorial on HPX
 - Run the example:
   
   ```
-  get_hostfile && mpirun.host -n 1 -hostfile hostfile.$SLURM_JOB_ID -ppn 1 ./hello_world -t16 
+  get_micfile && mpirun.mic -n 1 -hostfile micfile.$SLURM_JOB_ID -ppn 1 ./hello_world -t16 
   ```
 
 
